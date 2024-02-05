@@ -27,3 +27,7 @@ Example:
     ["out of date yogurt"]
   ]
 */
+
+
+// Solution
+
