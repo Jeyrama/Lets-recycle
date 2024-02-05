@@ -43,3 +43,5 @@ function recycle(arr) {
 
   return [paper, glass, organic, plastic]
 }
+
+// or
