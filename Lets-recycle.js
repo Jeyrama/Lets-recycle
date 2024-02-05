@@ -45,3 +45,11 @@ function recycle(arr) {
 }
 
 // or
+
+const recyclerMaterials = ['paper', 'glass', 'organic', 'plastic'];
+
+function recycle(objects) {
+  return recyclerMaterials.map(
+    m => objects.filter(o => o.material == m || o.secondMaterial == m).map(o => o.type)
+  );
+}
